@@ -1,0 +1,56 @@
+h3 {
+    text-align: center;
+}
+
+#image-holder {
+    background-color: gainsboro;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: auto;
+    max-width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#image-holder img {
+    box-sizing: border-box;
+    margin: 10px auto 10px auto;
+    height: 200px;
+    width: 200px;
+}
+
+#image-holder img:hover {
+    opacity: 0.7;
+    box-shadow: 3px 4px 3px 1px #8a8888;
+}
+
+.selected {
+    opacity: 0.5;
+    border: 3px solid black;
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#control {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    font-size: 16px;
+    padding: 5px;
+    margin: 15px;
+}
+
+#reset {
+    background-color: skyblue;
+}
+
+#btn {
+    background-color: greenyellow;
+}
